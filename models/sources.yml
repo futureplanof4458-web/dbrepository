@@ -5,4 +5,5 @@ sources:
     tables:
       - name: customers
       - name: orders
-      - name: t_emp      
+      - name: t_emp    
+      - name: t_ticket_info        
