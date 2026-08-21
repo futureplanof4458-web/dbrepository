@@ -21,7 +21,7 @@ with enriched as (
 
 final as (
     select
-        -- Surrogate key using dbt_utils
+        -- Surrogate key using dbt_utils 
         {{ dbt_utils.generate_surrogate_key(['claim_id']) }} as claim_sk,
 
         -- Natural keys
